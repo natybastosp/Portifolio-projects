@@ -1,16 +1,172 @@
-# React + Vite
+# 🌺 Floriografia - A Linguagem das Flores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web interativa que explora o fascinante mundo da floriografia, a linguagem vitoriana das flores. Cada flor possui significados únicos, histórias mitológicas e simbolismos culturais.
 
-Currently, two official plugins are available:
+## ✨ Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é baseado no livro **"Floriografia - A Linguagem das Flores"** e apresenta um catálogo digital completo com:
 
-## React Compiler
+- 🌸 Significados detalhados de cada flor
+- 📖 História e mitologia
+- 🎨 Variações de cores e seus significados
+- 🗓️ Estações de floração
+- 💐 Sugestões de ocasiões para presentear
+- 🔍 Sistema de busca e filtros avançados
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias
 
-## Expanding the ESLint configuration
+- **React 19** - Biblioteca JavaScript para UI
+- **Vite** - Build tool e dev server
+- **Tailwind CSS 4** - Framework CSS utility-first
+- **React Router DOM** - Roteamento
+- **JSON** - Banco de dados estático
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estrutura do Projeto
+
+```
+Floriography/
+├── public/
+│   └── images/
+│       └── flowers/          # Imagens das flores
+├── src/
+│   ├── components/           # Componentes React reutilizáveis
+│   ├── pages/                # Páginas da aplicação
+│   ├── data/
+│   │   ├── flowers.json      # Dados das flores
+│   │   └── categories.json   # Categorias de significados
+│   ├── hooks/
+│   │   └── useFlowers.js     # Hook customizado
+│   └── utils/
+│       └── searchFilters.js  # Utilitários de busca
+├── DATA_STRUCTURE.md         # Documentação da estrutura de dados
+└── README.md
+```
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone [url-do-repositorio]
+
+# Entre na pasta do projeto
+cd Floriography
+
+# Instale as dependências
+npm install
+
+# Execute o projeto em modo desenvolvimento
+npm run dev
+```
+
+A aplicação estará disponível em `http://localhost:5173`
+
+## 📊 Banco de Dados
+
+### Flores Catalogadas (10)
+
+1. Rosa Vermelha
+2. Violeta
+3. Lírio Branco
+4. Girassol
+5. Tulipa Vermelha
+6. Lavanda
+7. Margarida
+8. Orquídea
+9. Crisântemo
+10. Peônia
+
+### Categorias (9)
+
+- 💕 Amor e Romance
+- 🤍 Pureza e Inocência
+- 🌞 Alegria e Felicidade
+- 🌸 Modéstia e Humildade
+- 🕊️ Serenidade e Calma
+- 🌼 Inocência e Simplicidade
+- 👑 Elegância e Sofisticação
+- 🤝 Lealdade e Honestidade
+- 🍀 Prosperidade e Fortuna
+
+## 🎯 Funcionalidades Planejadas
+
+### Fase 1 (Atual) ✅
+
+- [x] Estrutura de dados JSON
+- [x] Hook customizado para gerenciamento
+- [x] Utilitários de busca e filtro
+- [ ] Componentes básicos (Cards, Filtros)
+- [ ] Páginas principais (Home, Lista, Detalhes)
+
+### Fase 2 (Próxima)
+
+- [ ] Sistema de busca em tempo real
+- [ ] Filtros avançados (categoria, cor, estação)
+- [ ] Página de detalhes de cada flor
+- [ ] Galeria de imagens
+- [ ] Animações e transições
+
+### Fase 3 (Futura)
+
+- [ ] Sistema de favoritos
+- [ ] Modo escuro
+- [ ] Compartilhamento social
+- [ ] Quiz sobre significados
+- [ ] Blog sobre floriografia
+- [ ] PWA (Progressive Web App)
+
+## 🎨 Design
+
+O design segue uma estética romântica e elegante, inspirada na Era Vitoriana:
+
+- Paleta de cores pastéis e suaves
+- Tipografia elegante
+- Elementos florais decorativos
+- Layout responsivo e acessível
+
+## 📖 Como Adicionar Novas Flores
+
+Consulte o arquivo [DATA_STRUCTURE.md](./DATA_STRUCTURE.md) para instruções detalhadas sobre como adicionar novas flores ao banco de dados.
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFlor`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova flor: Jasmim'`)
+4. Push para a branch (`git push origin feature/NovaFlor`)
+5. Abra um Pull Request
+
+## 📚 Referências
+
+- Livro: **Floriografia - A Linguagem das Flores**
+- História e simbolismo da Era Vitoriana
+- Mitologia grega, romana e nórdica
+- Tradições culturais asiáticas
+
+## 📝 Licença
+
+Este projeto é um portfólio pessoal e está disponível para fins educacionais.
+
+## 👤 Autora
+
+**Natália Bastos**
+
+- GitHub: [@natybastosp](https://github.com/natybastosp)
+
+## 🌟 Agradecimentos
+
+- Inspirado no livro de Floriografia
+- Comunidade React e Vite
+- Designers e desenvolvedores que compartilham conhecimento
+
+---
+
+**Desenvolvido com 💜 e muitas flores 🌸**

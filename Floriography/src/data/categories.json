@@ -1,0 +1,65 @@
+[
+  {
+    "id": "amor",
+    "name": "Amor e Romance",
+    "description": "Flores que expressam sentimentos de amor, paixão e romance",
+    "icon": "💕",
+    "color": "#FF6B9D"
+  },
+  {
+    "id": "pureza",
+    "name": "Pureza e Inocência",
+    "description": "Flores que simbolizam pureza, inocência e virtude",
+    "icon": "🤍",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "alegria",
+    "name": "Alegria e Felicidade",
+    "description": "Flores que trazem alegria, positividade e vitalidade",
+    "icon": "🌞",
+    "color": "#FFD700"
+  },
+  {
+    "id": "modestia",
+    "name": "Modéstia e Humildade",
+    "description": "Flores que representam modéstia, humildade e discrição",
+    "icon": "🌸",
+    "color": "#E6B3CC"
+  },
+  {
+    "id": "serenidade",
+    "name": "Serenidade e Calma",
+    "description": "Flores que transmitem paz, tranquilidade e serenidade",
+    "icon": "🕊️",
+    "color": "#B4A7D6"
+  },
+  {
+    "id": "inocencia",
+    "name": "Inocência e Simplicidade",
+    "description": "Flores que simbolizam inocência e beleza simples",
+    "icon": "🌼",
+    "color": "#FFF9E6"
+  },
+  {
+    "id": "elegancia",
+    "name": "Elegância e Sofisticação",
+    "description": "Flores que representam elegância, luxo e refinamento",
+    "icon": "👑",
+    "color": "#9B59B6"
+  },
+  {
+    "id": "lealdade",
+    "name": "Lealdade e Honestidade",
+    "description": "Flores que simbolizam lealdade, honestidade e devoção",
+    "icon": "🤝",
+    "color": "#3498DB"
+  },
+  {
+    "id": "prosperidade",
+    "name": "Prosperidade e Fortuna",
+    "description": "Flores que representam prosperidade, boa sorte e abundância",
+    "icon": "🍀",
+    "color": "#2ECC71"
+  }
+]

@@ -1,0 +1,468 @@
+[
+  {
+    "id": "rosa-vermelha",
+    "name": "Rosa Vermelha",
+    "scientificName": "Rosa gallica",
+    "category": "amor",
+    "meanings": ["Amor profundo", "Paixão ardente", "Romance", "Desejo"],
+    "description": "A rosa vermelha é o símbolo universal do amor romântico. Suas pétalas carmesim representam a intensidade dos sentimentos e a profundidade da paixão. Desde a antiguidade, é a flor mais utilizada para expressar amor verdadeiro.",
+    "history": "Na mitologia grega, a rosa vermelha nasceu do sangue de Adônis, amado por Afrodite. Durante a Era Vitoriana, presentear alguém com rosas vermelhas era uma declaração inequívoca de amor eterno.",
+    "symbolism": {
+      "primary": "Amor e paixão",
+      "secondary": ["Beleza", "Coragem", "Respeito"],
+      "negative": null
+    },
+    "colorVariations": [
+      {
+        "color": "Vermelho escuro",
+        "meaning": "Amor inconsciente, beleza"
+      },
+      {
+        "color": "Vermelho claro",
+        "meaning": "Desejo, paixão"
+      },
+      {
+        "color": "Borgonha",
+        "meaning": "Beleza inconsciente"
+      }
+    ],
+    "season": "Primavera/Verão",
+    "origin": "Europa e Ásia",
+    "bloomTime": "Maio a Outubro",
+    "images": [
+      "/images/flowers/rosa-vermelha-1.jpg",
+      "/images/flowers/rosa-vermelha-2.jpg",
+      "/images/flowers/rosa-vermelha-3.jpg"
+    ],
+    "tags": ["amor", "romance", "paixão", "clássica", "popular"],
+    "occasionSuggestions": [
+      "Dia dos Namorados",
+      "Aniversário de namoro",
+      "Pedido de casamento",
+      "Declaração de amor"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 1"
+  },
+  {
+    "id": "violeta",
+    "name": "Violeta",
+    "scientificName": "Viola odorata",
+    "category": "modestia",
+    "meanings": ["Modéstia", "Humildade", "Amor tímido", "Fidelidade"],
+    "description": "A delicada violeta é símbolo de modéstia e humildade. Suas pequenas flores roxas ou brancas carregam um perfume doce e uma mensagem de amor discreto e fiel.",
+    "history": "Napoleão Bonaparte adorava violetas e as usava como símbolo pessoal. A imperatriz Josefina cultivava violetas em Malmaison, e quando Napoleão foi exilado, prometeu voltar quando as violetas florescessem.",
+    "symbolism": {
+      "primary": "Modéstia e humildade",
+      "secondary": ["Amor fiel", "Lealdade", "Devoção"],
+      "negative": null
+    },
+    "colorVariations": [
+      {
+        "color": "Roxo",
+        "meaning": "Amor verdadeiro, modéstia"
+      },
+      {
+        "color": "Branco",
+        "meaning": "Inocência, pureza"
+      },
+      {
+        "color": "Azul",
+        "meaning": "Fidelidade, lealdade"
+      }
+    ],
+    "season": "Primavera",
+    "origin": "Europa e Ásia",
+    "bloomTime": "Março a Maio",
+    "images": [
+      "/images/flowers/violeta-1.jpg",
+      "/images/flowers/violeta-2.jpg"
+    ],
+    "tags": ["modéstia", "humildade", "delicada", "primavera"],
+    "occasionSuggestions": [
+      "Demonstração de afeto discreto",
+      "Agradecimento humilde",
+      "Amor platônico"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 3"
+  },
+  {
+    "id": "lirio-branco",
+    "name": "Lírio Branco",
+    "scientificName": "Lilium candidum",
+    "category": "pureza",
+    "meanings": ["Pureza", "Inocência", "Virgindade", "Majestade"],
+    "description": "O lírio branco é a personificação da pureza e inocência. Suas pétalas brancas imaculadas e perfume celestial o tornaram símbolo de virtude e espiritualidade através dos séculos.",
+    "history": "Na tradição cristã, o lírio branco está associado à Virgem Maria, simbolizando sua pureza. Era conhecido como 'Rosa de Maria'. Na Grécia antiga, acreditava-se que nasceu do leite de Hera.",
+    "symbolism": {
+      "primary": "Pureza e inocência",
+      "secondary": ["Maternidade", "Fertilidade", "Renascimento"],
+      "negative": null
+    },
+    "colorVariations": [
+      {
+        "color": "Branco",
+        "meaning": "Pureza, virtude, majestade"
+      },
+      {
+        "color": "Rosa",
+        "meaning": "Riqueza, prosperidade"
+      },
+      {
+        "color": "Amarelo",
+        "meaning": "Gratidão, alegria"
+      },
+      {
+        "color": "Laranja",
+        "meaning": "Paixão, confiança"
+      }
+    ],
+    "season": "Primavera/Verão",
+    "origin": "Mediterrâneo",
+    "bloomTime": "Maio a Agosto",
+    "images": [
+      "/images/flowers/lirio-branco-1.jpg",
+      "/images/flowers/lirio-branco-2.jpg"
+    ],
+    "tags": ["pureza", "inocência", "elegância", "casamento"],
+    "occasionSuggestions": [
+      "Casamentos",
+      "Batizados",
+      "Primeiras comunhões",
+      "Funerais (ressurreição)"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 2"
+  },
+  {
+    "id": "girassol",
+    "name": "Girassol",
+    "scientificName": "Helianthus annuus",
+    "category": "alegria",
+    "meanings": ["Adoração", "Lealdade", "Alegria", "Vitalidade"],
+    "description": "O girassol, com sua face dourada sempre voltada para o sol, simboliza adoração, lealdade e a busca pela luz. Sua aparência radiante traz alegria e vitalidade a qualquer ambiente.",
+    "history": "O nome científico 'Helianthus' vem do grego 'helios' (sol) e 'anthos' (flor). Os povos nativos americanos cultivavam girassóis há mais de 3.000 anos. Na mitologia grega, Clítia se transformou em girassol após ser rejeitada por Apolo.",
+    "symbolism": {
+      "primary": "Adoração e lealdade",
+      "secondary": ["Longevidade", "Fé", "Otimismo"],
+      "negative": "Pode representar arrogância ou orgulho falso"
+    },
+    "colorVariations": [
+      {
+        "color": "Amarelo brilhante",
+        "meaning": "Alegria, positividade"
+      },
+      {
+        "color": "Amarelo pálido",
+        "meaning": "Amizade, felicidade compartilhada"
+      },
+      {
+        "color": "Vermelho/Laranja",
+        "meaning": "Energia, paixão"
+      }
+    ],
+    "season": "Verão/Outono",
+    "origin": "América do Norte",
+    "bloomTime": "Julho a Setembro",
+    "images": [
+      "/images/flowers/girassol-1.jpg",
+      "/images/flowers/girassol-2.jpg",
+      "/images/flowers/girassol-3.jpg"
+    ],
+    "tags": ["alegria", "sol", "verão", "vitalidade", "lealdade"],
+    "occasionSuggestions": [
+      "Aniversários",
+      "Agradecimentos",
+      "Melhoras",
+      "Celebrações de amizade"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 5"
+  },
+  {
+    "id": "tulipa-vermelha",
+    "name": "Tulipa Vermelha",
+    "scientificName": "Tulipa gesneriana",
+    "category": "amor",
+    "meanings": [
+      "Declaração de amor",
+      "Amor perfeito",
+      "Fama",
+      "Paixão irresistível"
+    ],
+    "description": "A tulipa vermelha é uma declaração audaciosa de amor verdadeiro. Suas pétalas elegantes e cor intensa representam um amor perfeito e apaixonado.",
+    "history": "Originária da Pérsia e Turquia, a tulipa causou a famosa 'Tulipomania' na Holanda do século XVII. Uma lenda persa conta que um príncipe se lançou de um penhasco ao saber da morte de sua amada, e onde seu sangue caiu, nasceram tulipas vermelhas.",
+    "symbolism": {
+      "primary": "Amor perfeito",
+      "secondary": ["Fama", "Crença", "Confiança"],
+      "negative": null
+    },
+    "colorVariations": [
+      {
+        "color": "Vermelho",
+        "meaning": "Amor verdadeiro, paixão"
+      },
+      {
+        "color": "Rosa",
+        "meaning": "Carinho, cuidado"
+      },
+      {
+        "color": "Amarelo",
+        "meaning": "Amor sem esperança, sorriso alegre"
+      },
+      {
+        "color": "Branco",
+        "meaning": "Perdão, pureza"
+      },
+      {
+        "color": "Roxo",
+        "meaning": "Realeza, elegância"
+      }
+    ],
+    "season": "Primavera",
+    "origin": "Ásia Central (Pérsia/Turquia)",
+    "bloomTime": "Março a Maio",
+    "images": [
+      "/images/flowers/tulipa-vermelha-1.jpg",
+      "/images/flowers/tulipa-vermelha-2.jpg"
+    ],
+    "tags": ["amor", "elegância", "primavera", "paixão"],
+    "occasionSuggestions": [
+      "Declaração de amor",
+      "11º aniversário de casamento",
+      "Dia dos Namorados",
+      "Pedido de desculpas"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 4"
+  },
+  {
+    "id": "lavanda",
+    "name": "Lavanda",
+    "scientificName": "Lavandula angustifolia",
+    "category": "serenidade",
+    "meanings": ["Serenidade", "Devoção", "Calma", "Graça"],
+    "description": "A lavanda, com seu perfume calmante e flores roxas delicadas, simboliza serenidade, devoção e tranquilidade. É conhecida por suas propriedades relaxantes tanto no corpo quanto no espírito.",
+    "history": "Os romanos usavam lavanda em seus banhos (daí o nome do latim 'lavare' - lavar). Era usada para perfumar roupas de cama e afastar pragas. Na Era Vitoriana, representava desconfiança, mas também devoção silenciosa.",
+    "symbolism": {
+      "primary": "Serenidade e calma",
+      "secondary": ["Pureza", "Silêncio", "Devoção"],
+      "negative": "Desconfiança (em alguns contextos vitorianos)"
+    },
+    "colorVariations": [
+      {
+        "color": "Roxo lavanda",
+        "meaning": "Calma, serenidade, graça"
+      },
+      {
+        "color": "Roxo escuro",
+        "meaning": "Devoção profunda"
+      }
+    ],
+    "season": "Verão",
+    "origin": "Mediterrâneo",
+    "bloomTime": "Junho a Agosto",
+    "images": [
+      "/images/flowers/lavanda-1.jpg",
+      "/images/flowers/lavanda-2.jpg"
+    ],
+    "tags": ["serenidade", "calma", "perfume", "relaxamento"],
+    "occasionSuggestions": [
+      "Votos de bem-estar",
+      "Agradecimento por cuidados",
+      "Presente de spa",
+      "Decoração de ambientes tranquilos"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 6"
+  },
+  {
+    "id": "margarida",
+    "name": "Margarida",
+    "scientificName": "Leucanthemum vulgare",
+    "category": "inocencia",
+    "meanings": ["Inocência", "Pureza", "Amor leal", "Beleza"],
+    "description": "A margarida, com suas pétalas brancas e centro dourado, é símbolo de inocência, pureza e amor verdadeiro. Sua simplicidade encantadora representa a beleza natural e autêntica.",
+    "history": "O nome vem do inglês 'day's eye' (olho do dia) porque a flor abre ao amanhecer e fecha ao anoitecer. Na mitologia nórdica, era a flor sagrada de Freya, deusa do amor. É famosa pela tradição de arrancar as pétalas dizendo 'bem-me-quer, mal-me-quer'.",
+    "symbolism": {
+      "primary": "Inocência e pureza",
+      "secondary": ["Novo começo", "Amor verdadeiro", "Fertilidade"],
+      "negative": null
+    },
+    "colorVariations": [
+      {
+        "color": "Branco e amarelo",
+        "meaning": "Inocência, pureza"
+      },
+      {
+        "color": "Rosa",
+        "meaning": "Afeição gentil"
+      },
+      {
+        "color": "Vermelho",
+        "meaning": "Beleza desconhecida"
+      }
+    ],
+    "season": "Primavera/Verão",
+    "origin": "Europa",
+    "bloomTime": "Abril a Setembro",
+    "images": [
+      "/images/flowers/margarida-1.jpg",
+      "/images/flowers/margarida-2.jpg"
+    ],
+    "tags": ["inocência", "simplicidade", "primavera", "amor"],
+    "occasionSuggestions": [
+      "Nascimentos",
+      "Novos começos",
+      "Amor jovem",
+      "Decoração simples e elegante"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 7"
+  },
+  {
+    "id": "orquidea",
+    "name": "Orquídea",
+    "scientificName": "Orchidaceae",
+    "category": "elegancia",
+    "meanings": ["Beleza exótica", "Elegância", "Amor refinado", "Força"],
+    "description": "A orquídea é símbolo de beleza rara e refinamento. Sua estrutura complexa e aparência exótica representam amor sofisticado, luxo e força feminina.",
+    "history": "Na China antiga, orquídeas eram associadas a fertilidade e refinamento. Confúcio as chamava de 'Rei das Plantas Perfumadas'. Os astecas misturavam orquídeas de baunilha com chocolate para criar uma bebida imperial. Na Era Vitoriana, eram extremamente raras e valiosas.",
+    "symbolism": {
+      "primary": "Beleza e elegância",
+      "secondary": ["Luxo", "Força", "Amor maduro"],
+      "negative": null
+    },
+    "colorVariations": [
+      {
+        "color": "Rosa",
+        "meaning": "Feminilidade, graça, alegria"
+      },
+      {
+        "color": "Branco",
+        "meaning": "Pureza, elegância, reverência"
+      },
+      {
+        "color": "Roxo",
+        "meaning": "Admiração, respeito, dignidade"
+      },
+      {
+        "color": "Amarelo",
+        "meaning": "Amizade, novo começo"
+      },
+      {
+        "color": "Laranja",
+        "meaning": "Orgulho, entusiasmo"
+      }
+    ],
+    "season": "Varia por espécie (pode florescer o ano todo)",
+    "origin": "Regiões tropicais mundialmente",
+    "bloomTime": "Depende da espécie",
+    "images": [
+      "/images/flowers/orquidea-1.jpg",
+      "/images/flowers/orquidea-2.jpg",
+      "/images/flowers/orquidea-3.jpg"
+    ],
+    "tags": ["elegância", "exótica", "luxo", "sofisticada"],
+    "occasionSuggestions": [
+      "14º aniversário de casamento",
+      "Presente corporativo",
+      "Decoração sofisticada",
+      "Demonstração de admiração"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 8"
+  },
+  {
+    "id": "crisantemo",
+    "name": "Crisântemo",
+    "scientificName": "Chrysanthemum",
+    "category": "lealdade",
+    "meanings": ["Lealdade", "Honestidade", "Amor devotado", "Longevidade"],
+    "description": "O crisântemo é símbolo de lealdade, honestidade e vida longa. Na cultura asiática, representa nobreza e perfeição. No Ocidente, seu significado varia por cor e contexto.",
+    "history": "Cultivado na China há mais de 2.500 anos, o crisântemo é a flor nacional do Japão, onde existe o 'Dia do Crisântemo'. Era tão venerado que apenas a família imperial podia cultivá-lo. No Japão, representa a perfeição e o sol.",
+    "symbolism": {
+      "primary": "Lealdade e honestidade",
+      "secondary": ["Alegria", "Otimismo", "Longa vida"],
+      "negative": "Em alguns países europeus, associado a funerais"
+    },
+    "colorVariations": [
+      {
+        "color": "Vermelho",
+        "meaning": "Amor profundo"
+      },
+      {
+        "color": "Branco",
+        "meaning": "Verdade, luto (em algumas culturas)"
+      },
+      {
+        "color": "Amarelo",
+        "meaning": "Amor negligenciado, tristeza"
+      },
+      {
+        "color": "Rosa",
+        "meaning": "Amor frágil"
+      },
+      {
+        "color": "Roxo",
+        "meaning": "Alegria, otimismo"
+      }
+    ],
+    "season": "Outono",
+    "origin": "Ásia (China e Japão)",
+    "bloomTime": "Setembro a Novembro",
+    "images": [
+      "/images/flowers/crisantemo-1.jpg",
+      "/images/flowers/crisantemo-2.jpg"
+    ],
+    "tags": ["lealdade", "outono", "longevidade", "asiática"],
+    "occasionSuggestions": [
+      "13º aniversário de casamento",
+      "Celebração de amizade leal",
+      "Homenagem a idosos",
+      "Decoração de outono"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 9"
+  },
+  {
+    "id": "peonia",
+    "name": "Peônia",
+    "scientificName": "Paeonia",
+    "category": "prosperidade",
+    "meanings": ["Romance", "Prosperidade", "Boa fortuna", "Casamento feliz"],
+    "description": "A peônia, com suas camadas exuberantes de pétalas, simboliza romance, prosperidade e honra. É uma das flores mais apreciadas em casamentos e celebrações.",
+    "history": "Na China, é conhecida como 'Rei das Flores' e simboliza honra, riqueza e amor. Na mitologia grega, recebeu o nome de Paeon, médico dos deuses. Representa o 12º aniversário de casamento e era usada em poções medicinais na antiguidade.",
+    "symbolism": {
+      "primary": "Romance e prosperidade",
+      "secondary": ["Honra", "Compaixão", "Timidez"],
+      "negative": "Vergonha (em contextos específicos)"
+    },
+    "colorVariations": [
+      {
+        "color": "Rosa",
+        "meaning": "Romance, casamento feliz"
+      },
+      {
+        "color": "Vermelho",
+        "meaning": "Honra, respeito"
+      },
+      {
+        "color": "Branco",
+        "meaning": "Timidez, arrependimento"
+      },
+      {
+        "color": "Coral",
+        "meaning": "Desejo, paixão"
+      }
+    ],
+    "season": "Primavera/Início do verão",
+    "origin": "Ásia, Europa e América do Norte",
+    "bloomTime": "Maio a Junho",
+    "images": [
+      "/images/flowers/peonia-1.jpg",
+      "/images/flowers/peonia-2.jpg",
+      "/images/flowers/peonia-3.jpg"
+    ],
+    "tags": ["romance", "luxo", "casamento", "prosperidade"],
+    "occasionSuggestions": [
+      "Casamentos",
+      "12º aniversário de casamento",
+      "Desejos de prosperidade",
+      "Buquês de noiva"
+    ],
+    "references": "Floriografia - A Linguagem das Flores, Capítulo 10"
+  }
+]

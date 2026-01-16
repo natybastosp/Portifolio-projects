@@ -1,16 +1,45 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Cinzel:wght@400;600&display=swap");
+
+/* Importação das fontes personalizadas */
+@font-face {
+  font-family: "Josefin Slab";
+  src: url("/fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Josefin Slab";
+  src: url("/fonts/Josefin_Slab/JosefinSlab-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Yeseva One";
+  src: url("/fonts/Yeseva_One/YesevaOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
 @theme {
   /* Cores personalizadas */
-  --color-cream: #e8dfd3;
-  --color-burgundy: #9b3939;
+  --color-cream: #f5f5dc;
+  --color-cream-light: #fdfdf8;
+  --color-burgundy: #800020;
   --color-dark-brown: #3d2b1f;
   --color-sage: #8a9a7b;
-  --color-gold: #c9a961;
+  --color-gold: #d4af37;
 
   /* Fontes personalizadas */
-  --font-family-playfair: "Playfair Display", serif;
-  --font-family-cormorant: "Cormorant Garamond", serif;
-  --font-family-cinzel: "Cinzel", serif;
+  --font-josefin: "Josefin Slab", serif;
+  --font-yeseva: "Yeseva One", serif;
+}
+
+/* Define cor de fundo padrão para toda aplicação */
+body {
+  background-color: #f5f5dc;
+  background-color: var(--color-cream);
 }

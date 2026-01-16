@@ -1,44 +1,49 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="bg-cream p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-burgundy font-yeseva text-5xl ">Floriography</h1>
+        <Link to="/">
+          <h1 className="text-burgundy font-yeseva text-5xl cursor-pointer hover:opacity-80 transition-opacity">
+            Floriography
+          </h1>
+        </Link>
 
         <div>
-          <ul className="flex space-x-4 font-bold ">
+          <ul className="flex space-x-4 font-bold">
             <li>
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="text-burgundy font-josefin font-xl hover:underline"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/significados"
                 className="text-burgundy font-josefin font-xl hover:underline"
               >
                 Significados
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/combinacoes"
                 className="text-burgundy font-josefin font-xl hover:underline"
               >
                 Combinações
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/buques"
                 className="text-burgundy font-josefin font-xl hover:underline"
               >
                 Buquês
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

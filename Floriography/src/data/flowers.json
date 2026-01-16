@@ -29,11 +29,7 @@
     "season": "Primavera/Verão",
     "origin": "Europa e Ásia",
     "bloomTime": "Maio a Outubro",
-    "images": [
-      "/images/flowers/rosa-vermelha-1.jpg",
-      "/images/flowers/rosa-vermelha-2.jpg",
-      "/images/flowers/rosa-vermelha-3.jpg"
-    ],
+    "images": ["/images/flowers/rosa-vermelha.jpg"],
     "tags": ["amor", "romance", "paixão", "clássica", "popular"],
     "occasionSuggestions": [
       "Dia dos Namorados",
@@ -119,10 +115,7 @@
     "season": "Primavera/Verão",
     "origin": "Mediterrâneo",
     "bloomTime": "Maio a Agosto",
-    "images": [
-      "/images/flowers/lirio-branco-1.jpg",
-      "/images/flowers/lirio-branco-2.jpg"
-    ],
+    "images": ["/images/flowers/lily.jpg"],
     "tags": ["pureza", "inocência", "elegância", "casamento"],
     "occasionSuggestions": [
       "Casamentos",
@@ -162,11 +155,7 @@
     "season": "Verão/Outono",
     "origin": "América do Norte",
     "bloomTime": "Julho a Setembro",
-    "images": [
-      "/images/flowers/girassol-1.jpg",
-      "/images/flowers/girassol-2.jpg",
-      "/images/flowers/girassol-3.jpg"
-    ],
+    "images": ["/images/flowers/sunflower.jpg"],
     "tags": ["alegria", "sol", "verão", "vitalidade", "lealdade"],
     "occasionSuggestions": [
       "Aniversários",
@@ -177,8 +166,8 @@
     "references": "Floriografia - A Linguagem das Flores, Capítulo 5"
   },
   {
-    "id": "tulipa-vermelha",
-    "name": "Tulipa Vermelha",
+    "id": "tulipa",
+    "name": "Tulipa ",
     "scientificName": "Tulipa gesneriana",
     "category": "amor",
     "meanings": [
@@ -187,8 +176,8 @@
       "Fama",
       "Paixão irresistível"
     ],
-    "description": "A tulipa vermelha é uma declaração audaciosa de amor verdadeiro. Suas pétalas elegantes e cor intensa representam um amor perfeito e apaixonado.",
-    "history": "Originária da Pérsia e Turquia, a tulipa causou a famosa 'Tulipomania' na Holanda do século XVII. Uma lenda persa conta que um príncipe se lançou de um penhasco ao saber da morte de sua amada, e onde seu sangue caiu, nasceram tulipas vermelhas.",
+    "description": "A tulipa  é uma declaração audaciosa de amor verdadeiro. Suas pétalas elegantes e cor intensa representam um amor perfeito e apaixonado.",
+    "history": "Originária da Pérsia e Turquia, a tulipa causou a famosa 'Tulipomania' na Holanda do século XVII. Uma lenda persa conta que um príncipe se lançou de um penhasco ao saber da morte de sua amada, e onde seu sangue caiu, nasceram tulipas.",
     "symbolism": {
       "primary": "Amor perfeito",
       "secondary": ["Fama", "Crença", "Confiança"],
@@ -219,10 +208,7 @@
     "season": "Primavera",
     "origin": "Ásia Central (Pérsia/Turquia)",
     "bloomTime": "Março a Maio",
-    "images": [
-      "/images/flowers/tulipa-vermelha-1.jpg",
-      "/images/flowers/tulipa-vermelha-2.jpg"
-    ],
+    "images": ["/images/flowers/tulipa-vermelha-1.jpg"],
     "tags": ["amor", "elegância", "primavera", "paixão"],
     "occasionSuggestions": [
       "Declaração de amor",

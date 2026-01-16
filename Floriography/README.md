@@ -1,24 +1,25 @@
 # 🌺 Floriografia - A Linguagem das Flores
 
-Uma aplicação web interativa que explora o fascinante mundo da floriografia, a linguagem vitoriana das flores. Cada flor possui significados únicos, histórias mitológicas e simbolismos culturais.
+Uma aplicação web interativa que explora o fascinante mundo da floriografia, a linguagem vitoriana das flores. Cada flor possui significados únicos, histórias mitológicas e simbolismos culturais que foram usados por séculos para expressar sentimentos de forma discreta e elegante.
 
 ## ✨ Sobre o Projeto
 
 Este projeto é baseado no livro **"Floriografia - A Linguagem das Flores"** e apresenta um catálogo digital completo com:
 
-- 🌸 Significados detalhados de cada flor
-- 📖 História e mitologia
+- 🌸 **Significados** - Descubra o significado oculto em cada flor
+- 💐 **Combinações** - Crie mensagens únicas combinando diferentes flores
+- 🌹 **Buquês** - Arranjos especiais para cada ocasião
+- 📖 História e mitologia de cada flor
 - 🎨 Variações de cores e seus significados
-- 🗓️ Estações de floração
-- 💐 Sugestões de ocasiões para presentear
+- 🗓️ Estações de floração e origens
 - 🔍 Sistema de busca e filtros avançados
 
 ## 🛠️ Tecnologias
 
 - **React 19** - Biblioteca JavaScript para UI
-- **Vite** - Build tool e dev server
+- **Vite** - Build tool e dev server ultra-rápido
 - **Tailwind CSS 4** - Framework CSS utility-first
-- **React Router DOM** - Roteamento
+- **React Router DOM** - Sistema de roteamento SPA
 - **JSON** - Banco de dados estático
 
 ## 📁 Estrutura do Projeto
@@ -26,19 +27,29 @@ Este projeto é baseado no livro **"Floriografia - A Linguagem das Flores"** e a
 ```
 Floriography/
 ├── public/
+│   ├── fonts/                # Fontes personalizadas (Yeseva One, Josefin Slab)
 │   └── images/
 │       └── flowers/          # Imagens das flores
 ├── src/
 │   ├── components/           # Componentes React reutilizáveis
+│   │   ├── Layout.jsx        # Layout padrão com Navbar
+│   │   └── navbar.jsx        # Barra de navegação
 │   ├── pages/                # Páginas da aplicação
+│   │   ├── Home.jsx          # Página inicial
+│   │   ├── Significados.jsx  # Catálogo de flores
+│   │   ├── Combinacoes.jsx   # Combinações de flores
+│   │   └── Buques.jsx        # Buquês especiais
+│   ├── routes/
+│   │   └── index.jsx         # Configuração de rotas
 │   ├── data/
-│   │   ├── flowers.json      # Dados das flores
+│   │   ├── flowers.json      # Dados completos das flores
 │   │   └── categories.json   # Categorias de significados
 │   ├── hooks/
-│   │   └── useFlowers.js     # Hook customizado
+│   │   └── useFlowers.js     # Hook customizado para gerenciar flores
 │   └── utils/
-│       └── searchFilters.js  # Utilitários de busca
+│       └── searchFilters.js  # Utilitários de busca e filtros
 ├── DATA_STRUCTURE.md         # Documentação da estrutura de dados
+├── Floriografia.pdf          # Livro de referência
 └── README.md
 ```
 
@@ -151,15 +162,64 @@ Contribuições são bem-vindas! Para contribuir:
 - Mitologia grega, romana e nórdica
 - Tradições culturais asiáticas
 
-## 📝 Licença
+## � Créditos das Imagens
+
+Todas as fotografias utilizadas neste projeto foram obtidas de fontes de alta qualidade:
+
+### Unsplash
+
+Agradecimentos especiais aos fotógrafos que disponibilizaram suas lindas imagens na plataforma Unsplash:
+
+- **[@user_id_1]** - Rosa Vermelha
+- **[@user_id_2]** - Combinações de Tulipas
+- **[@user_id_3]** - Buquê de Flores Mistas
+- **[@felipepelaquim]** - Exemplos de flores diversas
+- **[@anniespratt]** - Flores silvestres e arranjos
+- **[@lianamikah]** - Detalhes florais
+- **[@zoeybennett]** - Composições florais
+- **[@micheile]** - Arranjos vintage
+
+> 💡 **Nota**: Se você é um dos fotógrafos e deseja que seu ID/nome seja adicionado ou alterado nos créditos, por favor, entre em contato!
+
+### Outras Fontes
+
+- **Pexels** - Imagens adicionais de flores
+- **Pixabay** - Ilustrações botânicas
+
+Todas as imagens são de uso gratuito sob suas respectivas licenças (Unsplash License, Pexels License, etc.).
+
+## 🎨 Design e Tipografia
+
+### Fontes
+
+- **Yeseva One** - Google Fonts (SIL Open Font License)
+- **Josefin Slab** - Google Fonts (SIL Open Font License)
+
+### Paleta de Cores
+
+- **Cream**: `#F5F5DC` - Fundo principal
+- **Burgundy**: `#800020` - Texto e detalhes
+- **Gold**: `#D4AF37` - Bordas e acentos
+
+## �📝 Licença
 
 Este projeto é um portfólio pessoal e está disponível para fins educacionais.
+
+**Direitos das Imagens**: Todas as imagens pertencem aos seus respectivos autores. Os créditos estão listados na seção "Créditos das Imagens" acima.
 
 ## 👤 Autora
 
 **Natália Bastos**
 
 - GitHub: [@natybastosp](https://github.com/natybastosp)
+- Portfolio: [Floriography](https://github.com/natybastosp/Portifolio)
+
+---
+
+<div align="center">
+  <p>Feito com 💜 e ☕ por Natália Bastos</p>
+  <p>🌸 "As flores são o alfabeto da natureza" 🌸</p>
+</div>
 
 ## 🌟 Agradecimentos
 

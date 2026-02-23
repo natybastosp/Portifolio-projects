@@ -1,14 +1,36 @@
-import './assets/main.css'
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import { VueQueryPlugin } from "@tanstack/vue-query";
+import { MotionPlugin } from "@vueuse/motion";
+import VChart from "vue-echarts";
+import { use } from "echarts/core";
+import { LineChart, BarChart } from "echarts/charts";
+import {
+  GridComponent,
+  TooltipComponent,
+  LegendComponent,
+} from "echarts/components";
+import { CanvasRenderer } from "echarts/renderers";
+import router from "./router";
+import App from "./App.vue";
+import "./assets/main.css";
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+// Registrar módulos do ECharts (tree-shaking)
+use([
+  LineChart,
+  BarChart,
+  GridComponent,
+  TooltipComponent,
+  LegendComponent,
+  CanvasRenderer,
+]);
 
-import App from './App.vue'
-import router from './router'
+const app = createApp(App);
 
-const app = createApp(App)
+app.use(createPinia());
+app.use(router);
+app.use(VueQueryPlugin);
+app.use(MotionPlugin);
+app.component("VChart", VChart);
 
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+app.mount("#app");

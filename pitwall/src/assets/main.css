@@ -1,35 +1,42 @@
-@import './base.css';
+@import "tailwindcss";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
+/* Pitwall Design System */
+@theme {
+  /* Backgrounds */
+  --color-bg-base: #f1f2f4;
+  --color-bg-surface: #eaebee;
+  --color-bg-sunken: #e2e3e8;
+  --color-bg-card: #ffffff;
+  --color-bg-hover: #edeef1;
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
+  /* Bordas */
+  --color-border-subtle: #eaebee;
+  --color-border-base: #d8d9de;
+  --color-border-strong: #c4c5cc;
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
+  /* Texto */
+  --color-text-primary: #111114;
+  --color-text-secondary: #444450;
+  --color-text-muted: #7a7a8a;
+  --color-text-ghost: #b0b0bc;
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+  /* Acentos */
+  --color-red: #e8002d;
+  --color-red-soft: #ffe5ea;
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+  /* Status */
+  --color-win: #16a34a;
+  --color-win-soft: #dcfce7;
+  --color-podium: #d97706;
+  --color-podium-soft: #fef3c7;
+  --color-dnf: #dc2626;
+  --color-dnf-soft: #fee2e2;
+
+  /* Equipe ativa — troca via JS */
+  --color-team-primary: #ff8000;
+  --color-team-secondary: #000000;
+
+  /* Fontes */
+  --font-display: "Syne", sans-serif;
+  --font-mono: "DM Mono", monospace;
 }

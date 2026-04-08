@@ -7,8 +7,8 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-indigo-800">mocktail</h1>
+    <div className="flex-center h-[100vh]">
+      <h1 className="text-4xl">mocktail</h1>
     </div>
   );
 };

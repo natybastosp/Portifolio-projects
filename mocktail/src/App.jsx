@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import Navbar from "./components/Navbar";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 // ScrollTrigger synchronizes animations with the page scroll, starting, pausing, or reversing effects as the user scrolls.
@@ -7,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
   return (
-    <div className="flex-center h-[100vh]">
-      <h1 className="text-4xl">mocktail</h1>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   );
 };
 
